@@ -1,12 +1,14 @@
 {
   "name": "nightmare-sandbox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "nightmare",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "soarflat",
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
 }
